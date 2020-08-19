@@ -1,0 +1,192 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+h2 {
+  font-weight: 900px;
+}
+
+p {
+  color: #8F8F8F;
+}
+
+/* Headings */
+
+.big-heading{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900px;
+  color: #FFFFFF;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #FF4c68;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 6%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.9rem;
+  /* 0 to top, 0 to the left & right ,4.9 t0 the bottom */
+  /* help to align the title name"tindog " to be exactly on the same line with the nav items-writings */
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* Download button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title-image */
+.Title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  background-color: #FFF;
+  position: relative;
+  z-index: 1;
+}
+.feature-title {
+font-size: 1.5rem;
+font-weight: 900px;
+}
+
+.feature-box {
+  text-align: center;
+  /* padding the  <p> helped to space the words and break it into other lines */
+  padding:5%;
+}
+
+
+.icon {
+  color: #EF8172;
+  margin: 1rem;
+}
+
+.icon:hover {
+  color: #FF4c68;
+}
+
+
+/* Testimonial section */
+
+  #testimonials {
+  text-align: center;
+  background-color: #EF8172;
+  color: #fff;
+  }
+
+ .testimonial-text {
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px ;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press {
+  background-color:   #EF8172;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* pricing section */
+
+#pricing {
+  padding:  100px;
+  text-align: center;
+}
+.price-text{
+  font-size: 3rem;
+  font-weight: 900px;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+@media (max-width: 1028px) {
+
+#title {
+  text-align: center;
+
+}
+.Title-image {
+    position: static;
+  transform: rotate(0);
+}
+
+}
+
+/* call to action */
+#cta {
+  background-color: #FF4c68;
+  color:#FFF;
+  font-weight: 900px;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: "Montserrat-black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+/* FOOTER */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
